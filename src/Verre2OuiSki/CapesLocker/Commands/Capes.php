@@ -6,9 +6,9 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
 use pocketmine\scheduler\ClosureTask;
-use Verre2OuiSki\CapesLocker\libs\dktapps\pmforms\FormIcon;
-use Verre2OuiSki\CapesLocker\libs\dktapps\pmforms\MenuForm;
-use Verre2OuiSki\CapesLocker\libs\dktapps\pmforms\MenuOption;
+use dktapps\pmforms\FormIcon;
+use dktapps\pmforms\MenuForm;
+use dktapps\pmforms\MenuOption;
 use Verre2OuiSki\CapesLocker\CapesLocker;
 
 class Capes extends Command{
@@ -28,8 +28,7 @@ class Capes extends Command{
 
         parent::__construct(
             "capes",
-            "Open your capes locker menu !",
-            "/capes"
+            "Open your capes locker menu !"
         );
         $this->setPermission("capeslocker.command.capes");
 
