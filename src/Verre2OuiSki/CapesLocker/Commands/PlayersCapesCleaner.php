@@ -14,8 +14,7 @@ class PlayersCapesCleaner extends Command{
         $this->plugin = $plugin;
         parent::__construct(
             "playerscapescleaner",
-            "WARNING ! This command remove all undefined capes in 'capes.json' from capes lockers of players.",
-            "/playerscapescleaner"
+            "WARNING ! This command remove all undefined capes in 'capes.json' from capes lockers of players."
         );
         $this->setPermission("capeslocker.command.playerscapescleaner");
     }
