@@ -16,7 +16,7 @@ class SetCape implements Listener{
 
 
     // Set cape if player disconnect with a cape
-    public function onPlayerJoin( PlayerJoinEvent $event ){
+    public function onPlayerJoin( PlayerJoinEvent $event ): void{
 
         $player = $event->getPlayer();
         $cape = $this->plugin->getWearingCapeId( $player );
