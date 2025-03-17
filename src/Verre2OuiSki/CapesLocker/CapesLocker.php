@@ -27,7 +27,7 @@ class CapesLocker extends PluginBase{
     /** @var Config */
     private $wearing_cape;
 
-    public static function getInstance() : self{
+    public static function getInstance(): CapesLocker{
         return self::$_instance;
     }
 
